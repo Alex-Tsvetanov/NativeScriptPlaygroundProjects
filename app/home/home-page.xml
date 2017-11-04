@@ -1,0 +1,20 @@
+<Page loaded="pageLoaded" class="page" xmlns="http://www.nativescript.org/tns.xsd">
+
+	<ActionBar title="Home" class="action-bar">
+	</ActionBar>
+	<ScrollView>
+		<StackLayout class="home-panel">
+			<!--Add your page content here-->
+			<Label textWrap="true" text="Play with NativeScript!" class="h2 description-label" />
+
+			<Label textWrap="true" text="Alex Tsvetanov" class="h2 description-label" />
+			
+			<Label textWrap="true" text="(Sofia High School of Mathematics)" class="h2 description-label" />
+			
+			<Label textWrap="true" text="9-<sup>th</sup> grage" class="h2 description-label" />
+
+			<Image style="width: 60%; height: 60%;" src="https://isocpp.org/files/img/cpp_logo.png"></Image>
+
+		</StackLayout>
+	</ScrollView>
+</Page>
